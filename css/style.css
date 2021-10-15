@@ -1,0 +1,29 @@
+:root {
+  --rotate: 0deg;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../images/matheus-viana-qY6EsgaPz5o-unsplash.jpg);
+  object-fit: cover;
+}
+
+.img {
+  width: 100%;
+  height: 70vh;
+  transform: rotate(var(--rotate));
+  object-fit: contain;
+}
